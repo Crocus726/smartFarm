@@ -8,15 +8,14 @@ let fanStatus = Boolean(false);
 let ledStatus = Boolean(false);
 
 // Firebase 접근 정보
-var config = {
-  apiKey: "AIzaSyA4JNrHtS9pc6QaW8dtwATWhUhs0Ni8OBI",
-  authDomain: "smartfarm-f867f.firebaseapp.com",
-  databaseURL: "https://smartfarm-f867f-default-rtdb.firebaseio.com",
-  projectId: "smartfarm-f867f",
-  storageBucket: "smartfarm-f867f.appspot.com",
-  messagingSenderId: "605663694333",
-  appId: "1:605663694333:web:ae528fa94efc794d285d94",
-  measurementId: "G-9C54BH4QG4"
+var config = firebaseConfig = {
+  apiKey: "AIzaSyDl63L5STtT61W-8rS9kBu5lGMi-psb9BQ",
+  authDomain: "test-ac43f.firebaseapp.com",
+  databaseURL: "https://test-ac43f-default-rtdb.firebaseio.com",
+  projectId: "test-ac43f",
+  storageBucket: "test-ac43f.appspot.com",
+  messagingSenderId: "27807043520",
+  appId: "1:27807043520:web:0f996bf9f38eeba9be8225"
 };
 firebase.initializeApp(config);
 database = firebase.database();
