@@ -8,7 +8,7 @@ let fanStatus = Boolean(false);
 let ledStatus = Boolean(false);
 
 // Firebase 접근 정보
-var config = firebaseConfig = {
+var config = {
   apiKey: "AIzaSyDl63L5STtT61W-8rS9kBu5lGMi-psb9BQ",
   authDomain: "test-ac43f.firebaseapp.com",
   databaseURL: "https://test-ac43f-default-rtdb.firebaseio.com",
