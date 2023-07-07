@@ -6,14 +6,13 @@
   function initMap() {
     // Firebase 접근 정보
     var config = {
-      apiKey: "AIzaSyD_g47-C90bK_BCD6DH56Z5DuHh_lf93x4",
-      authDomain: "smartfarmlocation.firebaseapp.com",
-      databaseURL: "https://smartfarmlocation-default-rtdb.firebaseio.com",
-      projectId: "smartfarmlocation",
-      storageBucket: "smartfarmlocation.appspot.com",
-      messagingSenderId: "580782206031",
-      appId: "1:580782206031:web:a3af204e4ea23fd67e8e3a",
-      measurementId: "G-GB1HRVK5RH"
+      apiKey: "AIzaSyDl63L5STtT61W-8rS9kBu5lGMi-psb9BQ",
+  authDomain: "test-ac43f.firebaseapp.com",
+  databaseURL: "https://test-ac43f-default-rtdb.firebaseio.com",
+  projectId: "test-ac43f",
+  storageBucket: "test-ac43f.appspot.com",
+  messagingSenderId: "27807043520",
+  appId: "1:27807043520:web:0f996bf9f38eeba9be8225"
     };
 
     // Firebase 앱 초기화
